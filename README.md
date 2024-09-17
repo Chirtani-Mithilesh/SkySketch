@@ -18,7 +18,6 @@ SkySketch is a real-time drawing application that uses OpenCV and MediaPipe for 
 
 ## Installation
 
-1. **Clone the repository:**
-   ```bash
+ **Clone the repository:**
    git clone https://github.com/Chirtani-Mithilesh/SkySketch.git
-   cd SkySketch
+     
