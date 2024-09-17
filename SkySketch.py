@@ -160,7 +160,8 @@ while ret:
                     continue
                 cv2.line(frame, points[i][j][k - 1], points[i][j][k], colors[i], 2)
                 cv2.line(paintWindow, points[i][j][k - 1], points[i][j][k], colors[i], 2)
-
+    # we can resize frame
+    #frame = cv2.resize(frame,(800,1200))
     cv2.imshow("Output", frame) 
     cv2.imshow("Paint", paintWindow)
 
